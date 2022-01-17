@@ -4,7 +4,6 @@ import {
   StyleSheet,
   TextInput,
 } from 'react-native';
-// import { TextInput } from 'react-native-web';
 import AppBar from '../components/AppBar';
 import CircleButton from '../components/CircleButton';
 import KeyboardSafeView from '../components/KeyboardSafeView';
