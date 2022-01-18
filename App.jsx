@@ -11,6 +11,8 @@ import MemoEditScreen from './src/screens/MemoEditScreen';
 import MemoDetailScreen from './src/screens/MemoDetailScreen';
 import MemoListScreen from './src/screens/MemoListScreen';
 
+require('firebase/firestore');
+
 const Stack = createStackNavigator();
 
 if (firebase.apps.length === 0) {
