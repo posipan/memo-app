@@ -6,9 +6,9 @@ import {
   TextInput,
   Alert,
 } from 'react-native';
+import firebase from 'firebase';
 import CircleButton from '../components/CircleButton';
 import KeyboardSafeView from '../components/KeyboardSafeView';
-import firebase from 'firebase';
 import { translateErrors } from '../utils';
 
 export default function MemoEditScreen(props) {
